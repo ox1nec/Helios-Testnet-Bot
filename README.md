@@ -18,7 +18,7 @@
 
 # Installation+Run🕸
 ```shell
-git clone https://github.com/anthugeist/Helios-Testnet-Bot
+git clone https://github.com/ox1nec/Helios-Testnet-Bot
 cd Helios-Testnet-Bot
 run.bat
 ```
@@ -26,7 +26,7 @@ run.bat
 **OR**
 
 ```shell
-git clone https://github.com/anthugeist/Helios-Testnet-Bot
+git clone https://github.com/ox1nec/Helios-Testnet-Bot
 cd Helios-Testnet-Bot
 pip install -r requirements.txt
 python bot.py
